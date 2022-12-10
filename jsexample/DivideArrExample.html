@@ -1,0 +1,27 @@
+<script>
+    var arr = [1,3,4,5,8,7,9,11,12]
+    var arr1=[]
+    var arr2=[]
+    for(var i=0;i<arr.length;i++)
+    {
+        if(i<arr.length/2)
+        {
+          arr1.push(arr[i]);
+        }
+        else
+        {
+          arr2.push(arr[i]);
+        }
+    }
+
+document.write("First Array <br>");
+for(var i=0;i<arr1.length;i++)
+{
+    document.write(arr1[i] + "<br>");
+}
+document.write("Second Array <br>");
+for(var i=0;i<arr2.length;i++)
+{
+    document.write(arr2[i] + "<br>");
+}
+</script>    

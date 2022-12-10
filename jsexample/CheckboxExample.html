@@ -1,0 +1,36 @@
+<html>
+    <head>
+      <script>
+        var s1="",s2="",s="";
+        function fun1()
+        {
+           if(document.getElementById("chk1").checked)
+           {
+             s1 = document.getElementById("chk1").value;
+           }
+           else{
+            s1 = " ";
+           }
+           s = s1+ " " + s2 + " ";
+           document.getElementById("res").innerHTML = s;
+        }
+        function fun2()
+        {
+            if(document.getElementById("chk2").checked)
+           {
+             s2 = document.getElementById("chk2").value;
+           }
+           else{
+            s2 = "";
+           }
+           s = s1+ s2 + " ";
+           document.getElementById("res").innerHTML = s;
+        }
+      </script>
+    </head>
+    <body>
+    <input type="checkbox" id="chk1" value="C" onchange="fun1()" />C <br>
+    <input type="checkbox" id="chk2" value="C++" onchange="fun2()" />C++ <br>
+    <div id="res"></div>
+    </body>
+</html>         

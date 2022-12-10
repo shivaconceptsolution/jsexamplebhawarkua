@@ -1,0 +1,21 @@
+<script>
+ var num = 12322;
+ var old = num;
+ var rem = 0;
+ var res = 0;
+ while(num!=0)   //123!=0
+ {
+  rem = num%10;  // 3
+  res = res*10+rem; // 543
+  num = parseInt(num/10); // 12
+
+ }
+ if(old==res)
+ {
+    document.write("pallindrom");
+ }
+ else{
+    document.write("not pallindrom");
+ }
+ //document.write(res);
+</script>    

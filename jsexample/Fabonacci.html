@@ -1,0 +1,13 @@
+<script>
+    var first = 0;
+    var second = 1;
+    document.write(first + "<br>");
+    document.write(second + "<br>");
+    for(var i=1;i<10;i++)
+    {
+      var result = first+second;
+      document.write(result + "<br>");
+      first=second;
+      second=result;
+    }
+</script>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+      <script>
+       function fun(item)
+       {
+          var s = "";
+          for(var i=0;i<document.getElementById("lst").length;i++)
+          {
+            if(document.getElementById("lst")[i].selected)
+            {
+                s = s + document.getElementById("lst")[i].value + " ";
+            }
+          }
+          document.getElementById("res").innerHTML = s;
+       }
+      </script>
+    </head>
+    <body>
+     <select id="lst" onchange="fun(this.value)" multiple>
+        
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="DS">DS</option>
+        <option value="JAVA">JAVA</option>
+     </select>
+    <div id="res"></div>
+    </body>
+</html>         

@@ -1,0 +1,19 @@
+<html>
+    <head>
+      <script>
+       function fun(item)
+       {
+           document.getElementById("res").innerHTML = item;
+       }
+      </script>
+    </head>
+    <body>
+     <select onchange="fun(this.value)">
+        <option value="">Select Course</option>
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="DS">DS</option>
+     </select>
+    <div id="res"></div>
+    </body>
+</html>         

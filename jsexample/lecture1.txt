@@ -1,0 +1,38 @@
+What is Javascript?
+
+It is client side (browser end) based programing language that is used to create dynamic features under HTML web page.
+
+Javascript provide event to manage dynamic programming code.
+
+How to write Java Script Program Code?
+
+
+We will write Javascipt code under HTML Head Section
+
+<html>
+<head>
+<script>
+   document.write("hello world");
+
+</script>
+
+</head>
+
+<body>
+
+</body>
+</html>
+
+
+
+WAP to calculate Area of traingle?
+
+WAP to calculate Area of circle?
+
+WAP to swap two number?
+
+WAP to calculate Square and Cube?
+
+WAP to calculate electricty bill where unit price and total consumption assigned by the user's?
+
+

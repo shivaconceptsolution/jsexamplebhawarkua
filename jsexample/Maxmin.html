@@ -1,0 +1,22 @@
+<html>
+    <head>
+    </head>
+    <body>
+     <script>
+       var num = 12345;
+       var a = num % 10;  //5
+       num = parseInt(num/10); // 1234.5
+       var b = num % 10; //4
+       num = parseInt(num/10); //123.4
+       var c = num %10;  //3
+       num = parseInt(num/10);  //12.3
+       var d = num % 10; //2
+       var e = parseInt(num/10);   //1.2
+       var data = a*10000+b*1000+c*100+d*10+e*1;
+       document.write(data);
+       
+
+     </script>
+    </body>
+
+</html>

@@ -1,0 +1,18 @@
+<script>
+var mobile = "9813123451";  // 48 to 57
+var s = "valid";
+for(var i=0;i<mobile.length;i++)
+{
+    var asc = mobile[i].charCodeAt(0);
+    if(asc<48 || asc>57)
+        {
+             s = "Invalid Mobileno, it should be numeric";
+             break;
+        }
+}
+if(mobile.length!=10)
+{
+    s += " mobile number should be 10 digits";
+}
+document.write(s);
+</script>    

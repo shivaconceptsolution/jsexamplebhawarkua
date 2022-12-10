@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+
+function course(a)
+{
+    document.getElementById("res").innerHTML = "Selected Course is " + a;
+}
+</script>
+</head>
+<body>
+<input type="radio" name="r1" id="r1" value="C" onchange="course(this.value)" />C
+<br>
+<input type="radio" name="r1" id="r2" value="CPP" onchange="course(this.value)"  />CPP
+<br>
+<input type="radio" name="r1" id= "r3"  value="DS" onchange="course(this.value)"  />DS
+<br>
+<div id="res"></div>
+</body>    
+
+
+
+</html>

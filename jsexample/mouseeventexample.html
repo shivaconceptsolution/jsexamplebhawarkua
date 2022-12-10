@@ -1,0 +1,29 @@
+<html>
+    <head>
+       <script>
+        function fun1()
+        {
+          document.getElementById("img1").style.width="200px";
+          document.getElementById("img1").style.height="200px";
+        }
+        function fun2()
+        {
+            document.getElementById("img1").style.width="";
+            document.getElementById("img1").style.height="";
+        }
+        function fun()
+        {
+            document.getElementById("btn").style.backgroundColor="Blue";
+        }
+        function fun3()
+        {
+            document.getElementById("btn").style.backgroundColor="";
+        }-
+       </script>
+    </head>
+    <body>
+        <img src="logo1.png" id="img1" onmouseover="fun1()" onmouseout="fun2()" width="50" height="50" />
+        <br><br>
+        <input type="button" id="btn" value="Click" onmouseover="fun()" style="width:250px; height:30px; border-radius:10px;" onmouseout="fun3()" />
+    </body>
+</html>
